@@ -1,0 +1,39 @@
+body
+{
+	background:#bdc3c7;
+}
+h1
+{
+	color:#9b59b6;
+}
+h2
+{
+	color:orange;
+}
+li
+{
+	color:#8080ff;
+}
+p
+{
+	background:yellow;
+}	
+input
+{
+	border:3px,solid,re;
+}
+.class 
+{
+	background:yellow;
+}
+#special
+{
+	border:2px,solid,(0,0,240);
+}
+div + p
+{
+	font-size: 25px;
+}
+
+input[type="text"] {
+    background: gray;
