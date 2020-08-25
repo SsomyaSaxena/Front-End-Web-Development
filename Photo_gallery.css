@@ -1,0 +1,35 @@
+body
+{
+	padding-top:70px;
+}
+.jumbotron
+{
+ background-color: #CBD6DF;
+ font-family: 'Permanent Marker', cursive;
+}
+.h2, h2
+{
+	font-size:40px;
+}
+.navbar-inverse .navbar-nav>li>a
+{
+	color:white;
+}
+.navbar-inverse .navbar-brand
+{
+	color:white;
+}
+.fa
+{
+	font-size:65px;
+}
+.thumbnail img
+{
+width:100%;
+height:280px;
+object-fit:cover; 
+}
+.navbar-inverse 
+{
+background-color:#143755;
+}
