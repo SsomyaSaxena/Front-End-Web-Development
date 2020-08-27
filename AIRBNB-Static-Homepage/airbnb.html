@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Holiday Lets, Homes, Experiences & Places - Airbnb </title>
+  <!-- <i class="fab fa-airbnb fa-lg"></i>
+ -->	
+ <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_airbnb-512.png" type="image/x-icon">
+ <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/solid.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="airbnb.css">
+</head>
+<body>
+ <div class="top">
+ 	<h3 class="sl">Get the latest on our COVID-19 response and cancellation policies.</h3>
+ 	<div class="sl">
+ 		<h3 id="lm"><strong> Learn more </strong></h3>
+ 	</div>
+ </div>
+ 
+ <div class="contain">
+   <nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><i class="fab fa-airbnb fa-lg"></i><b> airbnb</b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Host your home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Host an experience </a></li>
+      </ul>
+      <form class="navbar-form navbar-left">
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"> Sign-up <i class="fas fa-user-plus"></i></a></li>
+        <li><a href="#"> Login <i class="fas fa-user"></i></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-coins"></i></i><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><i class="fas fa-globe-asia"></i> English(IN)</a></li>
+            <li><a href="#"><i class="fas fa-rupee-sign"></i>  INR</a></li>
+          </ul>
+        </li>
+        <li><a href="#"> Help <i class="fas fa-question-circle"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>	
+
+<div class="wesly">
+<!-- <div class="well"> -->
+    <div>
+    <ul class="left">
+        <li><a href="#">Places to stay &emsp; <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Monthly stays &emsp; </a></li>
+        <li><a href="#">Experiences &emsp; </a></li>
+        <li><a href="#">Online Experiences <span class="label label-default fa-grad">New</span>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+        &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  </a></li>
+        <li id="reviews"><a href="#"> Reviews <i class="fas fa-user-plus "></i></a></li>
+    </ul>
+    </div>
+  <!-- </div> -->
+</div>    
+
+<!-- <div class="contain">
+   <nav class="navbar navbar-default ">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Places to stay <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Monthly stays </a></li>
+        <li><a href="#">Experiences </a></li>
+        <li><a href="#">Online Experiences <span class="label label-default">New</span></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"> Reviews <i class="fas fa-user-plus"></i></a></li>
+      </ul>
+    </div>
+</nav>
+</div> -->
+
+<div class="bodyyy">
+ <div class="row no-pad">
+	<div class="col-lg-3 col-sm-6 col-xs-12">
+      <div class="form-group black-border-focus">
+      <label for="exampleFormControlTextarea5">  Location: </label>
+      <textarea class="form-control" id="exampleFormControlTextarea5" rows="3" placeholder="Add city, landmark, or address"></textarea>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6 col-xs-12">
+      <div class="form-group black-border-focus">
+      <label for="exampleFormControlTextarea5">  Check-in/out: </label>
+      <textarea class="form-control" id="exampleFormControlTextarea5" rows="3" placeholder="Add dates"></textarea>
+      </div>
+    </div>  
+    <div class="col-lg-3 col-sm-6 col-xs-12">
+      <div class="form-group black-border-focus">
+      <label for="exampleFormControlTextarea5">  Guests: </label>
+      <textarea class="form-control" id="exampleFormControlTextarea5" rows="3" placeholder="Guests"></textarea>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6 col-xs-12">
+      <div class="btn-group btn-group-lg" role="group" aria-label="...">
+        <button type="button" class="btn btn-default">Search <i class="fas fa-search-location"></i></button>
+      </div>
+    </div>  
+ </div> 
+
+ <h1 class="h1">We may be apart, but we'll </h1>
+ <h1 class="h11"> get through this together <i class="fas fa-heart fa-gradient"></i></h1>
+
+<div class="row" id="pic">
+	<div class="col-lg-4 col-sm-6 col-xs-12">
+		<div class="well">
+			<img class="img-resp" src="https://a0.muscache.com/im/pictures/9882b52e-769b-4af6-84fe-58aabaf4b290.jpg?aki_policy=x_large" alt="Picture">
+			<div class="imgtext"><h3>Online Experiences</h3></div>
+			<hr class="hr">
+			<div class="imtext"><h2>Unique activities we can do together , led by a world of hosts. </h2></div>
+		</div>
+	</div>
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+		<div class="well">
+			<img class="img-resp" src="https://a0.muscache.com/im/pictures/56e33ab9-d581-4333-be11-69286231cee5.jpg?aki_policy=x_large" alt="Picture">
+			<div class="imgtext"><h3>Monthly Stays</h3></div>
+			<hr class="hr">
+			<div class="imtext"><h2>Make Airbnb your home, for stay of a month or longer. </h2></div>
+		</div>
+	</div>
+	<div class="col-lg-4 col-sm-6 col-xs-12">
+		<div class="well">
+			<img class="img-resp" src="https://a0.muscache.com/im/pictures/630fcb0e-4beb-4cc8-a5dd-a4b7488dc96c.jpg?aki_policy=x_large" alt="Picture">
+      <div class="top-left"><span class="label label-default fa-grad">New</span></div>
+			<div class="imgtext"><h3>Frontline Stays</h3></div>
+			<hr class="hr">
+			<div class="imtext"><h2>Find or provide accomodation for COVID-19 responders.</h2></div>
+		</div>
+	</div>
+</div>
+ 
+</div>
+<div class="bb">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">	
+         <div class="blbx">
+	       <h3 class="h3bb">Introducing Online Experiences</h3>
+           <h2 class="h2bb">Now you can meet people all over the world while trying something new.</h2>
+           <h2 class="h2bb">Join live, interactive video sessions led by expert hosts – all without leaving home.</h2>
+         </div>  
+      </div>
+      <div class="col-lg-6 col-sm-12">
+   	    <div class="btn-group btn-group-lg" role="group" aria-label="...">
+   	     <div class="EAll">
+          <button type="button" class="btn btn-default">Explore All</button>
+        </div>
+       </div>
+      </div>     
+    </div> 
+   <div class="bbg">
+    <div class="row">
+    	<div class="col-lg-6 col-sm-12">
+    	  <div class="b1">	
+    	   <div class="well">
+    	   	<img class="img-respon" src="https://a0.muscache.com/im/pictures/0049c173-7313-42c5-9330-543ed4cb8d7d.jpg?im_w=480" alt="Picture">
+    	   	<div><h2 class="pedro">Mix secret sangria with pedro from lisbon</h2></div>
+    	   </div>
+    	  </div> 
+    	</div>
+    	<div class="col-lg-6 col-sm-12">
+    		<div class="col-lg-6">
+    	     <div class="b21">		
+    		  <div class="well">	
+    			<img class="img-responsi" src="https://a0.muscache.com/im/pictures/5bf46c77-4312-41b6-b9ad-66db5bbadd27.jpg?im_w=240" alt="Picture">
+    			<div><h2 class="yoga">Stretch.Breathe.Relax.Yoga class with friends.</h2></div>
+    		  </div>
+    		 </div> 
+    		</div>
+    		<div class="col-lg-6">
+    		  <div class="b22">	
+    		     <div class="well">
+    		        <img class="img-responsi" src="https://a0.muscache.com/im/pictures/5bd2705a-a565-426e-b928-f2a2b581e717.jpg?im_w=240" alt="Picture">
+    		        <div><h2 class="janice">Meditate with music from Janice from Amsterdam.</h2></div>
+    		     </div>
+    		   </div>  
+    		</div>
+    		<div class="col-lg-12">
+    		  <div class="b23">	
+    		     <div class="well">
+    		        <img class="img-responsive" src="https://a0.muscache.com/im/pictures/af46112a-b342-45bb-89b0-57fce44e110c.jpg?im_w=480" alt="Picture">
+    		        <div><h2 class="john">Support african penguins by drawing with John</h2></div>
+    		     </div>
+    		  </div>   
+    		</div>
+        </div>
+    </div>	 
+   </div>     
+
+ </div>  	   	
+</div>  
+
+<div class="bbb">
+  <div class="row">
+    <div class="col-lg-6 col-sm-12">
+       <div>
+         <h3 class="host">Host a hero: help us house frontline responders around the world</h3>
+       </div>
+       <div class="btn-group btn-group-lg" role="group" aria-label="...">
+       	 <div class="GI">
+          <button type="button" class="btn btn-default">GET INVOLVED</button>
+         </div> 
+       </div>
+    </div>
+    <div class="col-lg-6 col-lg-12">
+       <div>	
+         <h3 class="safe">With frontline stays, Airbnb is partnering with our hosts to connect 100,000 healthcare providers, relief workers, and first responders with clean places to stay that allow them to be close to their patients – and safely distanced from their own families.</h3>
+       </div> 
+    </div>
+  </div>
+</div>     
+
+<div class="gb">
+   <div class="SI"> STAY INFORMED </div>  
+     <div class="row">
+        <div class="col-lg-3">
+        	<div class="aaa">
+        	<h2 class="head">For Guests:</h2>
+        	<hr class="hrl">
+        	<h2><b>Updates for travel</b></h2>
+        	<h2>What you should know</h2>
+        	<hr class="hrl">
+        	<h2><b>Cancellation options</b></h2>
+        	<h2>Learn what's covered</h2>
+        	<hr class="hrl">
+        	<h2><b>Help centre</b></h2>
+        	<h2>Get Support</h2>
+          </div>
+        </div>	
+        <div class="col-lg-3">
+        	<div class="bbb">
+          <h2 class="head">For Hosts:</h2>
+          <hr class="hrl">
+          <h2><b>Message from Brian Chesky</b></h2>
+          <h2>Hear from our CEO</h2>
+          <hr class="hrl">
+          <h2><b>Resources for hosting</b></h2>
+          <h2>What's affected by COVID-19</h2>
+          <hr class="hrl">
+          <h2><b>Providing Frontline stays</b></h2>
+          <h2>Learn how to help our warriors</h2>
+          </div>  
+        </div>
+        <div class="col-lg-3">
+        	<div class="ccc">
+          <h2 class="head">For COVID-19 responders:</h2>
+          <hr class="hrl">
+          <h2><b>Frontline stays</b></h2>
+          <h2>Learn about our programme</h2>
+          <hr class="hrl">
+          <h2><b>Sign-up</b></h2>
+          <h2>Check for housing options</h2>
+          <hr class="hrl">
+          <h2><b>Make a donation</b></h2>
+          <h2>Support Non-Profit organisations</h2>
+          </div>  
+        </div>
+        <div class="col-lg-3">
+        	<div class="ddd">
+            <h2 class="head">More:</h2>
+            <hr class="hrl">
+            <h2><b>Airbnb Newsroom</b></h2>
+            <h2>Latest announcements</h2>
+            <hr class="hrl">
+            <h2><b>World Health Organisation</b></h2>
+            <h2>Education & updates</h2>
+          </div>
+        </div>
+     </div>
+</div>        
+
+<div class="wb">
+   <div class="des"> DESTINATIONS FOR FUTURE TRIPS </div>  
+     <div class="row">
+        <div class="col-lg-3">
+          <div class="aaa">
+          <h2 class="l">San Francisco</h2>
+          <hr class="hrll">
+          <h2 class="l">Denver</h2>
+          <hr class="hrll">
+          <h2 class="l">Houston</h2>
+          </div>
+        </div>  
+        <div class="col-lg-3">
+          <div class="bbb">
+          <h2 class="l">Los Angeles</h2>
+          <hr class="hrll">
+          <h2 class="l">Washington DC</h2>
+          <hr class="hrll">
+          <h2 class="l">New Orleans</h2>
+          </div>  
+        </div>
+        <div class="col-lg-3">
+          <div class="ccc">
+            <h2 class="l">New York</h2>
+            <hr class="hrll">
+            <h2 class="l">Phoenix</h2>
+            <hr class="hrll">
+            <h2 class="l">Boston</h2>
+          </div>  
+        </div>
+        <div class="col-lg-3">
+          <div class="ddd">
+            <h2 class="l">Seattle</h2>
+            <hr class="hrll">
+            <h2 class="l">Austin</h2>
+            <hr class="hrll">
+            <h2 class="l">Miami</h2>
+          </div> 
+        </div>
+     </div>
+</div>    
+
+<hr class="hrll">
+
+<div class="lb">
+   <!-- <div class="des"> DESTINATIONS FOR FUTURE TRIPS </div>  --> 
+     <div class="row">
+        <div class="col-lg-3">
+          <div class="aaa">
+          <h2 class="header"><b>About</b></h2> 
+          <h2>Diversity & Belonging</h2>
+          <h2>Accessibility</h2>
+          <h2>Trust & Safety</h2>
+          <h2>Airbnb Citizen</h2>
+          <h2>Trust & Safety</h2>
+          </div>
+        </div>  
+        <div class="col-lg-3">
+          <div class="bbb">
+          <h2 class="header"><b>Community</b></h2>  
+          <h2>Airbnb Magazine</h2>
+          <h2>Airbnb for Work</h2>
+          <h2>Invite friends</h2>
+          <h2>Careers</h2>
+          </div>  
+        </div>
+        <div class="col-lg-3">
+          <div class="ccc">
+            <h2 class="header"><b>Host</b></h2>
+            <h2>Host your home</h2>
+            <h2>Host an experience</h2>
+            <h2>Responsible hosting</h2>
+            <h2>Open Homes</h2>
+            <h2>Olympics</h2>
+            <h2>Resource Centre</h2>
+          </div>  
+        </div>
+        <div class="col-lg-3">
+          <div class="ddd">
+            <h2 class="header"><b>Support</b></h2>
+            <h2>Help Centre</h2>
+            <h2>Neighbourhood Support</h2>
+          </div> 
+        </div>
+     </div>
+</div> 
+
+<!-- <hr class="hrll"> -->
+
+<div>
+ <div class="row">
+   <div class="well0">
+     <div class="row1">
+        <div class="col-lg-6 col-sm-12">
+           <h3 class="hola"> © 2020 Airbnb, Inc. All rights reserved · Privacy · Terms · Sitemap </h3>
+        </div>
+     </div>
+     <div class="col-lg-6 col-sm-12">
+      <div class="row2">
+        <h3 class="navi"><i class="fas fa-globe"></i> ENGLISH(IN) &emsp; <i class="fas fa-rupee-sign"></i> INR &emsp; &emsp; &emsp; <i class="fab fa-facebook-square"></i> &emsp; <i class="fab fa-twitter"></i> &emsp; <i class="fas fa-camera-retro"></i></h3>
+      </div> 
+    </div>
+  </div>
+</div>
+</div>
+
+
+</body>
+</html>
