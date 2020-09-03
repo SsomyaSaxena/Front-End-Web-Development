@@ -1,0 +1,134 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    height:100%;
+}
+body
+{
+/* background: #abbaab;
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+background: linear-gradient(to right, #ffffff, #abbaab);  */
+/* background: #70e1f5;
+background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);
+background: linear-gradient(to right, #ffd194, #70e1f5); */
+/* background: #ff9966;
+background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+background: linear-gradient(to right, #ff5e62, #ff9966); */
+/* background: #EF3B36;
+background: -webkit-linear-gradient(to left, #FFFFFF, #EF3B36);
+background: linear-gradient(to left, #FFFFFF, #EF3B36); */
+/* background: #007991;
+background: -webkit-linear-gradient(to right, #78ffd6, #007991);
+background: linear-gradient(to right, #78ffd6, #007991); */
+background: #6190E8;
+background: -webkit-linear-gradient(to left, #A7BFE8, #6190E8);
+background: linear-gradient(to left, #A7BFE8, #6190E8);
+}
+header
+{
+    display:flex;
+    justify-content: space-between;
+    align-items : center;
+    padding-left:2%;
+    background-color:black;
+    height:55px;
+    /* opacity:0.8; */
+}
+h3
+{
+    cursor:pointer;
+    color:white;
+    font-family: 'Courgette', cursive;
+    font-size:30px;
+}    
+.nav_links
+{
+    list-style:none;
+}
+.nav_links li
+{
+    display:inline-block;
+    padding:0px 20px;
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-size:16px;
+}
+.nav_links li a
+{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover
+{
+    color:#c4c2c3;
+}
+a
+{
+    color:white;
+    text-decoration:none;
+}
+.menu
+{
+  margin-top:2%;
+  text-align:center;
+  font-family: 'Courgette', cursive;
+  font-size:3rem;
+  /* text-decoration: underline; */
+}
+.container
+{
+  margin-left:29.5%;
+  margin-top:1%;
+  margin-right:28.2%;
+}
+.anchor
+{
+  color:black;
+  padding-left:2%;
+}
+.topics
+{
+    border: 3px solid #000000;
+    border-radius:5px;
+    padding: 2% 2%;
+}
+h2
+{
+    margin-bottom:0%;
+    margin-top:1.5%;
+    font-family: 'Roboto', serif;
+}
+h2:hover
+{
+    border: 3px solid #000000;
+    border-radius:5px;
+    padding: 2% 2%;
+    background-color: #fff;
+}
+span
+{
+    /* background-color: pink; */
+    width:1000px;
+    padding: 2% 1%;
+    font-size:2rem;
+    border-right:2px solid #000000;
+}
+.fa-fire
+{
+  padding-left:0.8%;
+}
+.fa-bookmark
+{
+    padding-left:0.6%;
+}
+.fa-info
+{
+  padding-left:1.7%;
+}
+.fa-share-alt-square
+{
+  /* padding-left:0.2%; */
+  font-size:2.2rem;
+}
