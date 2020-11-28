@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTRATION FORM</title>
+<style>
+body {background-color: powderblue;}
+input   {margin: 0.8%;}
+select {margin: 0.8%;}
+.container    {border: black solid 3px; width:50%; padding:2%; margin-top:15%; margin-left:23%;}
+.submit { margin-left: 5%; margin-top:2%;}
+</style>
+</head>
+<body>
+
+<div class="container">
+	<form>
+		<label for="Student">Student Name:</label> 
+		<input type="text" name="student" max="30"><br>
+		<label for="Institute">Institute Name:</label>  
+        <input type="text" value="KIET" readonly><br>
+        <label for="Branch">Branch Name:</label> 
+        <select name="cars" id="cars">
+         <option value="CSE">Computer Science Engineering</option>
+         <option value="IT">Information Technology Engineering</option>
+         <option value="EN">Electronics Engineering</option>
+         <option value="ME">Mechanical Engineering</option>
+       </select><br>
+       <label for="UnivRollNo">University Roll No:</label> 
+	   <input type="text" maxlength="12" pattern="\d*" required/><br>
+	   <label for="Question">Are you a Btech Student:</label> 
+	   <input type="radio" name="Are you" value="yes">
+        <label for="Yes">Yes</label>
+       <input type="radio" name="Are you" value="no">
+        <label for="No">No</label><br>
+       <input type="submit" class="submit"> 
+	</form>	
+</div>
+
+</body>
+</html>
